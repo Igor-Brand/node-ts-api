@@ -2,8 +2,8 @@ import express from 'express';
 
 const app = express();
 
-app.get('/', (req,res) => {
+app.get('/', (req, res) => {
     return res.send('Hello, World!');
 });
 
-export {app};
+export { app };
